@@ -1,0 +1,198 @@
+<html>
+
+<head>
+    <title>Portfolio- Sanskruti</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container" id="nav-container">
+            <span class="logo-text" id="logo-text">Sanskruti</span>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+            <div class="nav-buttons">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Dark Mode">
+                    <span class="theme-icon light-icon">☀️</span>
+                    <span class="theme-icon dark-icon">🌙</span>
+                </button>
+                <a href="#Contact" class="contact-btn">Contact Me</a>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+    <div class="mobile-menu" id="mobileMenu">
+        <ul class="mobile-nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <!--Hero Section-->
+    <section class="hero " id="hero">
+        <div class="hero-bg">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm Sanskruti Adigopul
+                    <span class="gradient-text">MERN Stack Developer</span>
+                </h1>
+                <p class="hero-subtitle">I build scalable, secure, and high-performance full-stack
+                    web applications using MongoDB, Express.js, React.js, and Node.js.
+                </p>
+                <div class="hero-buttons">
+                    <a href="assets/pdf/Sanskruti resume.pdf" class="btn btn-primary btn-lg"><span>View resume</span>
+                        <img src="assets/img/resume.png" alt="" class="btn-icon" /></a>
+                    <a href="#Contact" class="btn btn-secondary btn-lg">
+                        <img src="assets/img/contact.png" alt="" class="btn-icon-secondary" />
+                        <span>Contact Me</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--About Section -->
+    <section class="about" id="About">
+        <div class="about-section">
+            <div class="about-me">
+                <h1 class="section-heading">About Me</h1>
+                <p class="section-subtitle-1">I am a passionate MERN Stack Developer and an Electronics and
+                    Telecommunication Engineering
+                    student
+                    with strong problem-solving skills and a solid foundation in Data Structures and
+                    Software Engineering.
+                </p>
+                <p class="section-subtitle-2">I specialize in building full-stack web applications using MongoDB,
+                    Express.js, React.js,
+                    and Node.js. I focus on writing clean, maintainable code and creating responsive,
+                    user-friendly interfaces.
+                </p>
+                <p class="section-subtitle-3">
+                    I am constantly learning and improving my skills to build scalable backend systems
+                    and efficient frontend architectures.
+                </p>
+            </div>
+            <div class="about-img">
+                <img src="assets/img/sanskruti.jpeg" alt="" class="profile-img" />
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="Skills">
+        <div class="skills-container">
+            <h1 class="section-heading" style="text-align:center; margin-bottom: 3rem;">My Skills</h1>
+
+            <div class="skills-category">
+                <h3 class="category-title">Frontend</h3>
+                <div class="skills-grid">
+                    <button class="skill-btn">HTML</button>
+                    <button class="skill-btn">CSS</button>
+                    <button class="skill-btn">JavaScript</button>
+                    <button class="skill-btn">React.js</button>
+                    <button class="skill-btn">Bootstrap</button>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <h3 class="category-title">Backend</h3>
+                <div class="skills-grid">
+                    <button class="skill-btn">Node.js</button>
+                    <button class="skill-btn">Express.js</button>
+                    <button class="skill-btn">RESTful APIs</button>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <h3 class="category-title">Database</h3>
+                <div class="skills-grid">
+                    <button class="skill-btn">MongoDB</button>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <h3 class="category-title">Tools & Technologies</h3>
+                <div class="skills-grid">
+                    <button class="skill-btn">Git & GitHub</button>
+                    <button class="skill-btn">Postman</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Reference -->
+    <section class="projects-ref" id="Projects">
+        <div class="projects-ref-container">
+            <h1 class="section-heading" style="text-align:center; margin-bottom: 1rem;">My Projects</h1>
+            <p style="text-align:center; color: var(--text-secondary); margin-bottom: 2rem;">Check out the projects I've
+                built using the MERN stack and other technologies.</p>
+            <div style="text-align:center;">
+                <a href="projects.html" class="btn btn-primary btn-lg">View All Projects →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="Contact">
+        <div class="contact-container">
+            <h1 class="section-heading" style="text-align:center; margin-bottom: 0;">Get In Touch</h1>
+            <div class="contact-grid">
+                <a href="mailto:sanskrutiadigopul@gmail.com" class="contact-card">
+                    <img src="assets/img/email-logo.png" alt="Email" class="contact-icon-img">
+                    <h4>Email</h4>
+                    <p>sanskrutiadigopul@gmail.com</p>
+                </a>
+                <a href="https://github.com/Sanskrutiadigopul" target="_blank" class="contact-card">
+                    <img src="assets/img/github-logo.png" alt="GitHub" class="contact-icon-img">
+                    <h4>GitHub</h4>
+                    <p>Sanskrutiadigopul</p>
+                </a>
+                <a href="https://www.linkedin.com/in/sanskruti-adigopul-a2a563326/" target="_blank"
+                    class="contact-card">
+                    <img src="assets/img/linkedin-logo.png" alt="LinkedIn" class="contact-icon-img">
+                    <h4>LinkedIn</h4>
+                    <p>linkedin.com/in/sanskrutiadigopul</p>
+                </a>
+                <a href="https://www.instagram.com/sanskrutiadigopul2005/" target="_blank" class="contact-card">
+                    <img src="assets/img/instagram-logo.png" alt="Instagram" class="contact-icon-img">
+                    <h4>Instagram</h4>
+                    <p>@sanskrutiadigopul2005</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <ul class="footer-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+            <p>© 2026 Sanskruti Adigopul</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
